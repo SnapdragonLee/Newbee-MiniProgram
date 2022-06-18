@@ -1,0 +1,158 @@
+
+page {
+		width: 100%;
+		min-height: 100%;
+		display: flex;
+}
+.page {
+		flex: 1;
+}
+.refresh-view {
+		width: 750rpx;
+		height: 80px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+}
+.header {
+		margin-left: 20px;
+		margin-right: 20px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		background-color: #f4f4f4;
+}
+.header-title {
+		font-size: 20px;
+		font-weight: bold;
+		color: #444;
+		margin-left: 12px;
+		margin-right: 12px;
+}
+.sticky-view {
+		margin-left: 12px;
+		margin-right: 12px;
+		padding: 20px;
+		background-color: #EBEBEB;
+		border-radius: 5px;
+}
+.list {
+		flex: 1;
+}
+.list-item {
+		margin-left: 12px;
+		margin-right: 12px;
+		margin-top: 12px;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 5px;
+}
+.tijiao{
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 10px;
+		background-color: #EBEBEB;
+		border-radius: 5px;
+}
+.radio_class{
+		margin-left: 12px;
+		padding: 12px;
+}
+.name_class{
+		margin-left: 0px;
+		margin-right: 12px;
+}
+.answer{
+		margin-left: 20px;
+}
+.kantijie{
+		margin-left: 20px;
+}
+.chakantijie{
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 10px;
+		border-radius: 5px;
+}
+.xietijie{
+		width: 45% !important;
+		margin-right: 12px;
+		margin-bottom: 10px;
+		float:right;
+		margin-top: 10px;
+		font-weight:100;
+}
+.nextproblem{
+		width: 45% !important;
+		float:left;
+		margin-left: 12px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight:100;
+}
+.tijie{
+        display:inline-block;
+        width: 100%;
+        height: auto;
+        font-family: Gibson;
+        font-size: 32rpx;
+        word-break: break-all;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+}
+.tijie_title{
+	    display:inline-block;
+		width: 80%;
+		margin-left: 20px;
+		margin-right: 20px;
+	    height: auto;
+	    font-family: Gibson;
+	    font-size: 32rpx;
+}
+.see_more{
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 10px;
+		background-color: #ffffff;
+		padding: 5px;
+		flex-direction: row;
+		align-items: center;
+}
+.notclick{
+		margin-left: 20px;
+		disflex: flex;
+		margin-right: 20px;
+		margin-top: 10px;
+		background-color: #ffffff;
+		border-radius: 5px;
+}
+.yesclick{
+		disflex: flex;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 10px;
+		background-color: #55ff7f;
+		border-radius: 5px;
+}
+.cuotiben{
+        display: flex;
+        height: 60%;
+        width: 100%;
+		margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+}
+.chakantimu{
+		display: flex;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		border-radius: 5px;
+		position:fixed;
+		bottom: 0;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+}
+

@@ -1,0 +1,39 @@
+
+.input_class{
+	background-color: #EBEBEB;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+	margin: 0 auto;
+	width: 90%;
+	border-radius: 5px;
+}
+.input_view{
+	position: relative;
+	justify-content: center;
+	border-radius: 5px;
+}
+.input_title{
+	text-align: center;
+	border-radius: 5px;
+	font-weight: bold;
+	display: block;
+}
+.tijiao{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: #EBEBEB;
+	border-radius: 5px;
+}
+.input_class_view{
+	flex-direction: row;
+	align-items: center;
+}
+.jishuqi{
+	flex-direction: row;
+	align-items: center;
+	background-color: #007AFF;
+}
+

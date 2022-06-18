@@ -1,0 +1,1 @@
+<view><image src="../../static/display.png" mode></image><rich-text nodes="{{pro_id.data}}"></rich-text></view>

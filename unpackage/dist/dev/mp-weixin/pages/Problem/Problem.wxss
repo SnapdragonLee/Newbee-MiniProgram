@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.my-userinfo-container {
+  height: 100%;
+  background-color: #f4f4f4;
+}
+.my-userinfo-container .top-box {
+  height: 400rpx;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.my-userinfo-container .top-box .ava {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  border: 3px solid #FFFFFF;
+}
+.my-userinfo-container .top-box .nic {
+  font-size: 25px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.panel-list {
+  padding: 0 10px;
+  position: relative;
+  top: 20px;
+}
+.panel-list .panel {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.panel-list .panel .panel-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.panel-list .panel .panel-body .panel-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  border-radius: 10rpx;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5rpx solid #000000;
+}
+.panel-list .panel .panel-body .panel-item .icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.panel-list .panel .panel-body .panel-item .title {
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+}
+

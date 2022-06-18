@@ -1,0 +1,14 @@
+
+.container-box.data-v-763553e8 {
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+  height: 300px;
+}
+
+/* 请根据实际需求修改父元素尺寸，组件自动识别宽高 */
+.charts-box.data-v-763553e8 {
+  width: 100%;
+  height: 300px;
+}
+
